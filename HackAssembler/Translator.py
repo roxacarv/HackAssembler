@@ -16,7 +16,7 @@ class Translator(object):
         for i in self.output:
             temp = source
             source = temp + i + '\n'
-        sourceFile = open('source.txt', 'w')
+        sourceFile = open('output.hack', 'w')
         sourceFile.write(source)
         sourceFile.close()
 
